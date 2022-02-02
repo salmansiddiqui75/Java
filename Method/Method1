@@ -1,0 +1,28 @@
+public class Demo
+{
+public static void method1()
+{
+System.out.println("Method1 call");
+method2();
+System.out.println("Method 1 end");
+}
+public static void method2()
+{
+System.out.println("Method2 call");
+method3();
+System.out.println("Method2 end");
+}
+public static void method3()
+{
+System.out.println("Method3 call");
+}
+public static void method4()
+{
+System.out.println("Method4 call");
+}
+public static void main(String []args)
+{
+method1();
+}
+
+}
